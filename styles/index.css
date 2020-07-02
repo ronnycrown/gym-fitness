@@ -14,6 +14,7 @@ body {
 
 .slide {
   /* position: relative; */
+  background: rgba(255, 255, 255, 0.19);
   background-image: url("../images/Rectangle 162.png");
   background-size: cover;
   background-position: center center;
@@ -44,9 +45,9 @@ body {
   top: 260px;
 }
 
-.training {
+/* .training {
   margin-top: 70px;
-}
+} */
 
 .post {
   display: flex;
@@ -102,14 +103,19 @@ body {
   font-family: 'Bebas Neue', cursive;
 }
 
-.teaminfo {
+/* .teaminfo {
   margin-top: 120px;
-}
+} */
 
 .team {
   font-size: 72px;
   font-family: 'Bebas Neue', cursive;
   line-height: 72px;
+  background-image: url(../images/OUR\ TEAM.png);
+  background-repeat: no-repeat;
+  background-size: 100% 2em;
+  width: 100%;
+
 }
 
 .card-body {
@@ -136,13 +142,20 @@ body {
   margin-top: 20px;
 }
 
-.tips {
+/* .tips {
   margin-top: 160px;
-}
+} */
 
 .story {
-  margin-top: 80px;
+  background-image: url(../images/OUR\ STORY.png);
+  background-repeat: no-repeat;
+  background-size: 100% 10em;
+}
 
+.culture {
+  background-image: url(../images/OUR\ CULTURE.png);
+  background-repeat: no-repeat;
+  background-size: 100% 10em;
 }
 
 .past {
@@ -165,7 +178,7 @@ body {
 
 .pointer {
   position: relative;
-  left: -50px;
+  left: -55px;
   top: -7px;
   cursor: pointer;
 }
@@ -177,10 +190,11 @@ body {
 
 .fa {
   color: #fff;
+  margin-right: 20px;
 }
 
 .blog {
-  margin-top: 170px;
+  /* margin-top: 170px; */
   background: rgba(0, 0, 0, 0.05);
 }
 
@@ -212,6 +226,38 @@ body {
   font-family: 'Manrope', sans-serif; 
   margin-top: -10px;
 }
+
+.jumbotron {
+  background-image: url(../images/Pre\ Footer.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 600px; 
+}
+
+.fit {
+  text-transform: uppercase;
+  font-size: 60px;
+  font-family: 'Bebas Neue', cursive;
+  color: #fff;
+}
+
+.join {
+  cursor: pointer;
+  background: #fff;
+  width: 190px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 36px;
+  border-radius: none;
+  border: none;
+  color: #FF4301;
+  float: right;
+  margin-top: -80px;
+}
+
+.join::after {
+  content: url(../images/-_.png);
+}
+
 
 
 
